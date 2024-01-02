@@ -3,10 +3,22 @@
     color: white;
     font-size: 3vw;
     text-transform: uppercase;
-    margin-top: 30vw;
-    margin-left: 10vw;
+    margin-top: 80vw;
+    margin-left: 15vw;
+    
 }
 .description p{
     margin: 0px;
     position: relative;
 }
+
+
+@media (min-width: 768px) {
+
+    .description{
+      
+        margin-top: 15vw;
+        
+    }
+    
+    }

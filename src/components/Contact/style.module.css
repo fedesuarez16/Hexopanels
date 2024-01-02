@@ -1,0 +1,62 @@
+/* styles/WhatsAppButton.module.css */
+.whatsappButton {
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .whatsappIcon {
+    margin-right: 8px;
+  }
+  
+
+  /* styles/Contact.module.css */
+.contactContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .contactHeading {
+    font-size: 64px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+  .contactText {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 50px;
+    font-weight: 300;
+
+  }
+  
+  /* Apply styles to the WhatsAppButton component */
+  .whatsappButton {
+    background-color: #25d366;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .whatsappIcon {
+    margin-right: 10px;
+  }
+  

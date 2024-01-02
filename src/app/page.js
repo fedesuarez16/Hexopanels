@@ -4,6 +4,11 @@ import styles from './page.module.css'
 import Intro from '../components/Intro';
 import Description from '../components/Description';
 import Projects from '../components/Projects';
+import Navbar from '../components/Navbar';
+import Gallery from '@/components/Gallery';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
+
 
 export default function Home() {
 
@@ -18,9 +23,13 @@ export default function Home() {
 
   return (
       <main className={styles.main}>
+        <Navbar/>
         <Intro />
         <Description />
         <Projects />
+        <Gallery/>
+        <Contact/>
+        <Footer/>
       </main>
   )
 }

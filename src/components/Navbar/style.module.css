@@ -1,0 +1,49 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0); /* Set alpha to 0 for full transparency */
+    padding: 10px;
+    color: white;
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+
+.navbarContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarContent h2 {
+    font-weight: 300;
+
+}
+
+.homeHeader {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Your existing styles... */
+
+.navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 1px0;
+}
+
+.navItem {
+    margin-right: 20px;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}

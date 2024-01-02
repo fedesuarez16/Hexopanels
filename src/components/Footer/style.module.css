@@ -1,0 +1,31 @@
+/* styles/style.module.css */
+.footer {
+    background-color: #000000;
+    margin-top: 100px;
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    color: #fff;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    bottom: 0;
+    color: #9f9f9f;
+}
+
+.instagramIcon {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Agrega un estilo para espaciar los elementos del pie de página */
+.footer p {
+    margin: 0 10px; /* Ajusta el espacio horizontal entre los elementos */
+    font-size: 14px;
+}
+
+.footer a {
+    color: #5d6e92;
+    text-decoration: none;
+}
