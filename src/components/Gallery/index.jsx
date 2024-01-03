@@ -5,8 +5,8 @@ import Image from 'next/image';
 // Dummy data for the gallery images
 const galleryImages = [
   '/images/paneles .png',
-  '/images/paneles 06.png',
-  '/images/paneles 07.png',
+  '/images/paneles2.png',
+  '/images/paneles3.png',
   '/images/1.webp',
   '/images/8.webp',
   '/images/3.webp',
