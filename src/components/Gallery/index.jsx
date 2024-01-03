@@ -4,15 +4,17 @@ import Image from 'next/image';
 
 // Dummy data for the gallery images
 const galleryImages = [
-  '/images/paneles.jpg',
-  '/images/paneles 06.jpg',
-  '/images/paneles 07.jpg',
-  '/images/4.webp',
-  '/images/3.webp',
-  '/images/5.webp',
-  '/images/6.webp',
-  '/images/7.webp',
+  '/images/paneles .png',
+  '/images/paneles 06.png',
+  '/images/paneles 07.png',
+  '/images/1.webp',
   '/images/8.webp',
+  '/images/3.webp',
+  '/images/4.webp',
+  '/images/5.webp',
+  '/images/9.webp',
+  '/images/10.webp',
+
   // Add more image paths as needed
 ];
 

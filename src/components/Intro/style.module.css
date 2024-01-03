@@ -46,6 +46,7 @@
     border-radius: 80px;
     position: absolute;
     top: 300px;
+    text-decoration: none;
   }
   
   .introSpan {

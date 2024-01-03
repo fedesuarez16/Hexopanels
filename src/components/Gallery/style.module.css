@@ -17,7 +17,8 @@
 
 .imageItem img {
     transition: transform 0.3s ease-in-out;
-    object-fit:fill;
+    object-fit:cover;
+    width: 100%;
 }
 
 .imageItem:hover img {

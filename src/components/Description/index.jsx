@@ -8,7 +8,8 @@ const phrases = ["Tranforma tu espacio con los innovadores paneles Nanoleaf--Pan
 export default function Index() {
 
   return (
-    <div className={styles.description} >
+    
+    <div id='description' className={styles.description} >
         {
             phrases.map( (phrase, index) => {
                 return <AnimatedText key={index}>{phrase}</AnimatedText>

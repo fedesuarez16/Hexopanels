@@ -41,8 +41,7 @@ return (
                 <h1 data-scroll data-scroll-speed="0.7">HEXOPANELS <br/>   <p className={styles.introSpan}>Paneles luminicos estilo nanoleaf</p></h1>
         
           
-
-            <button data-scroll data-scroll-speed="0.3" className={styles.introButton}>Ver video</button>
+            <a href='#description' data-scroll data-scroll-speed="0.3" className={styles.introButton}>Comenzar</a>
         </div>
     </div>
 )

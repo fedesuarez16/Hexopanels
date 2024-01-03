@@ -32,7 +32,7 @@ export default function Index() {
     }, []);
 
     return (
-        <section className={styles.projectsContainer}>
+        <section id='description' className={styles.projectsContainer}>
             <div ref={container} className={styles.projects}>
                 <div className={styles.projectDescription}>
                     <div ref={imageContainer} className={styles.imageContainer}>
@@ -44,10 +44,10 @@ export default function Index() {
                         />
                     </div>
                     <div className={styles.column}>
-                    <p>Iluminación inteligente y colorida. Diseño modular y personalización única para experiencias visuales cautivadoras.</p>
+                    <p>Iluminación- inteligente y colorida. Diseño modular y personalización única para experiencias visuales cautivadoras.</p>
                     </div>
                     <div className={styles.column}>
-                    <p>Unicos productores en Argentina.</p>
+                    <p>-Unicos productores en Argentina-</p>
                     </div>          
       </div>
             </div>
