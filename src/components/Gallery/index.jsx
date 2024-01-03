@@ -13,7 +13,7 @@ const galleryImages = [
   '/images/4.webp',
   '/images/5.webp',
   '/images/9.webp',
-  '/images/10.webp',
+  '/images/10.webp'
 
   // Add more image paths as needed
 ];
