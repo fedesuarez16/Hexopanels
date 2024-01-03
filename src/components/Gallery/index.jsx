@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 // Dummy data for the gallery images
 const galleryImages = [
-  '/images/paneles .png',
+  '/images/paneles.png',
   '/images/paneles2.png',
   '/images/paneles3.png',
   '/images/1.webp',
