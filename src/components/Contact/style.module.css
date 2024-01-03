@@ -1,18 +1,23 @@
-/* styles/WhatsAppButton.module.css */
 .whatsappButton {
-    background-color: #25d366;
-    color: #fff;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
+    display: inline-flex;
     align-items: center;
+    padding: 20px 40px;
+    background-color: transparent;
+    color: #fff;
+    border: #13be71 solid;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .whatsappButton:hover {
+    background-color: #128C7E;
   }
   
   .whatsappIcon {
-    margin-right: 8px;
+    margin-right: 10px;
+    font-size: 50px;
   }
   
 
@@ -43,20 +48,5 @@
 
   }
   
-  /* Apply styles to the WhatsAppButton component */
-  .whatsappButton {
-    background-color: #25d366;
-    color: #fff;
-    padding: 12px 20px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-  }
-  
-  .whatsappIcon {
-    margin-right: 10px;
-  }
+
   

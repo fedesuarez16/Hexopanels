@@ -1,90 +1,109 @@
+/* styles/style.module.css */
+
 .homeHeader {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.backgroundImage {
+  }
+  
+  .backgroundImage {
     width: 100%;
     height: 140vh;
     position: absolute;
     filter: brightness(80%);
-}
-
-.backgroundImage img {
+  }
+  
+  .backgroundImage img {
     object-fit: cover;
-}
-
-.intro {
+  }
+  
+  .intro {
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Cambiado a columna para apilar los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
     position: relative;
-}
-
-.intro h1 {
-    padding-top:199px;
+  }
+  
+  .intro h1 {
+    padding-top: 139px;
     color: white;
     font-weight: 200;
-    font-size: 11vw;
+    font-size: 15vw;
     z-index: 3;
     text-align: center;
     white-space: nowrap;
-    align-items: center;
-
-}
-
-.introButton {
+  }
+  
+  .introButton {
     margin-top: 40px;
-    padding: 20px 40px; /* Adjust padding for a larger button */
+    padding: 20px 40px;
     background-color: transparent;
     font-size: 16px;
-    border: 3px solid transparent; /* Set the initial border color as transparent */
+    border: 3px solid transparent;
     color: #b2b2b2;
-    border-color: #909090;    border-radius: 80px; /* Adjust the border-radius for a rounded appearance */
+    border-color: #909090;
+    border-radius: 80px;
     position: absolute;
     top: 300px;
-}
-
-.introButton:hover {
-    background-color: transparent; /* Set the background to transparent on hover */
+  }
+  
+  .introSpan {
+    margin-top: 10px; /* Agregado espacio entre h1 y el párrafo */
+    background-color: transparent;
+    font-size: 12px;
+    color: #b2b2b2;
+    text-transform: uppercase;
+  
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    color: #909090;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .introButton:hover {
+    background-color: transparent;
     color: #ffffff;
     border-color: #f3f1f1;
-
-}
-
-
-
-
-
-
-.introVideo {
+  }
+  
+  .introVideo {
     filter: brightness(30%);
     width: auto;
     position: absolute;
     height: 100vh;
-}
-
-.introVideo video {
-    width:100%;
+  }
+  
+  .introVideo video {
+    width: 100%;
     height: 100vh;
     object-fit: cover;
-}
-
-
-
-@media (min-width: 768px) {
+  }
+  
+  @media (min-width: 768px) {
     .introVideo video {
-        object-fit:cover;
-        object-position: top;
-        width: auto;
-        height: 130vh;
+      object-fit: cover;
+      object-position: top;
+      width: auto;
+      height: 130vh;
     }
     .intro h1 {
-        padding-top:50px;
-        font-size: 7vw;
-
-
-        
+      padding-top: 50px;
+      font-size: 7vw;
     }
-}
+    .introButton {
+        margin-top: 5px;
+      
+      }
+
+      .introSpan{
+        font-size: 22px;
+        margin-top: 20px;
+
+
+      }
+  }
+  

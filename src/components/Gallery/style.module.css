@@ -17,6 +17,7 @@
 
 .imageItem img {
     transition: transform 0.3s ease-in-out;
+    object-fit:fill;
 }
 
 .imageItem:hover img {

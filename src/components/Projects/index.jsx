@@ -21,7 +21,7 @@ export default function Index() {
     useEffect(() => {
         gsap.from(imageContainer.current, {
             opacity: 0,
-            duration: 1,
+            duration: .3,
             scrollTrigger: {
                 trigger: container.current,
                 start: 'top center+=100',
@@ -44,11 +44,12 @@ export default function Index() {
                         />
                     </div>
                     <div className={styles.column}>
-<p>The flora is characterized by the presence of high elevation wetland, as well as yellow straw, broom sedge, tola de agua and tola amaia.</p>
-</div>
-<div className={styles.column}>
-<p>Some, like the southern viscacha, vicuña and Darwins rhea, are classified as endangered species. Others, such as Andean goose, horned coot, Andean gull, puna tinamou and the three flamingo species inhabiting in Chile (Andean flamingo, Chilean flamingo, and Jamess flamingo) are considered vulnerable.</p>
-</div>                </div>
+                    <p>Iluminación inteligente y colorida. Diseño modular y personalización única para experiencias visuales cautivadoras.</p>
+                    </div>
+                    <div className={styles.column}>
+                    <p>Unicos productores en Argentina.</p>
+                    </div>          
+      </div>
             </div>
         </section>
     );
