@@ -4,9 +4,7 @@ import Image from 'next/image';
 
 // Dummy data for the gallery images
 const galleryImages = [
-  '/images/paneles 06.svg',
-  '/images/paneles 07.svg',
-  '/images/paneles 08.svg',
+  
   '/images/1.webp',
   '/images/8.webp',
   '/images/3.webp',
@@ -29,8 +27,8 @@ export default function Gallery()  {
             <Image
               src={image}
               alt={`Gallery Image ${index + 1}`}
-              width={300} // Set the width according to your design
-              height={200} // Set the height according to your design
+              width={400} // Set the width according to your design
+              height={300} // Set the height according to your design
             />
           </div>
         ))}
