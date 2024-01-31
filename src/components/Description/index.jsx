@@ -9,7 +9,7 @@ export default function Index() {
 
   return (
     
-    <div id='description' className={styles.description} >
+    <div  className={styles.description} >
         {
             phrases.map( (phrase, index) => {
                 return <AnimatedText key={index}>{phrase}</AnimatedText>

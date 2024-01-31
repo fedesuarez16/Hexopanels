@@ -12,10 +12,11 @@
     height: 140vh;
     position: absolute;
     filter: brightness(80%);
+    overflow: hidden;
   }
   
   .backgroundImage img {
-    object-fit: cover;
+    object-fit: fill;
   }
   
   .intro {
@@ -29,7 +30,8 @@
     padding-top: 139px;
     color: white;
     font-weight: 200;
-    font-size: 15vw;
+    font-size: 14vw;
+  
     z-index: 3;
     text-align: center;
     white-space: nowrap;
@@ -86,7 +88,7 @@
   
   @media (min-width: 768px) {
     .introVideo video {
-      object-fit: cover;
+      object-fit:cover;
       object-position: top;
       width: auto;
       height: 130vh;
@@ -94,6 +96,7 @@
     .intro h1 {
       padding-top: 50px;
       font-size: 7vw;
+
     }
     .introButton {
         margin-top: 5px;

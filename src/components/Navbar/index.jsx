@@ -25,7 +25,7 @@ export default function Navbar() {
                         <a href="#section1">Producto</a>
                     </li>
                     <li className={styles.navItem}>
-                        <a href="#section2">Blog</a>
+                        <a href="#section2">Acerca</a>
                     </li>
                     <li className={styles.navItem}>
                         <a href="#section2">Contacto</a>
